@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Montserrat&family=Open+Sans:wght@600&display=swap');
+
+html {
+     background: #cbccc8;
+}
+body {
+     background-repeat: no-repeat;
+     background: #cbccc8;
+     background: line-height(linear, left top, left bottom, from(#fff), to(#cbccc8));
+     background: -moz-linear-gradient(top, #fff, #cbccc8);
+     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cbccc8');
+}
+:root {
+    --orange: #ffa500;
+    --text-color: #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    height: auto;
+    background-color: #457b9d;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+header {
+    padding: 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    font-family: Archivo;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: var(--text-color);
+}
+main {
+    display: flex;
+}
+.box {
+    padding: 20px;
+    margin-top: 20px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.boxes {
+    width: 300px;
+    height: 320px;
+    /* border: 1px solid #ffa500; */
+    border-radius: 30px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.content-box {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.content-box img {
+    width: 100%;
+    border-radius: 30px;
+}
+.box-xontent {
+    width: 100px;
+    height: 100px;
+}
+#btn {
+    width: 150px;
+    padding: 10px;
+    color: var(--text-color);
+    background-color: #cbccc8;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 70px;
+}
+.modal {
+    width: 400px;
+    min-height: 273px;
+    max-height: 500px;
+    background-color: #ffa500;
+    z-index: 999;
+
+}
