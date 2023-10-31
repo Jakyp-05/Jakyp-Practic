@@ -71,4 +71,15 @@ let shoppinProduct = products.map((item) => {
        </div>
     `
 })
-box.innerHTML += shoppinProduct.join("")
+box.innerHTML += shoppinProduct.join("");
+
+let openShopping = document.querySelector(".open-Shopping");
+let closeShopping = document.querySelector(".close-Shopping")
+let modal = document.querySelector(".modal")
+
+openShopping.onclick = function() {
+    modal.style.display = "block"
+}
+closeShopping.onclick = function() {
+    modal.style.display = "none"
+}
